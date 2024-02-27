@@ -147,7 +147,9 @@ function App() {
                 <div className="col">
                   {user.email}
                 </div>
-                <button type='button' className='btn btn-danger' onClick={() => handleDelete(user._id)}>Delete</button>
+                <div className="col ">
+                  <button type='button' className='btn btn-danger' onClick={() => handleDelete(user._id)}>Delete</button>
+                </div>
               </div>
             )
           })
